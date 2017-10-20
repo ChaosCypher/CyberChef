@@ -714,8 +714,13 @@ const OperationConfig = {
             {
                 name: "Encode all special chars",
                 type: "boolean",
+                value: URL_.ENCODE_EXTRA
+            },
+            {
+                name: "Encode all chars",
+                type: "boolean",
                 value: URL_.ENCODE_ALL
-            }
+            },
         ]
     },
     "Parse URI": {
